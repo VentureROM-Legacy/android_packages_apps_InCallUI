@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="callFailed_dialToUssd">בקשת חיוג שונתה לבקשת USSD.</string>
   <string name="callFailed_dialToSs">בקשת חיוג שונתה לבקשת SS.</string>
   <string name="callFailed_dialToDial">בקשת חיוג שונתה לבקשת חיוג עם מספר שונה.</string>
@@ -29,6 +29,9 @@
   <string name="modify_call_option_voice">קול בלבד</string>
   <string name="accept_modify_call_request_prompt">לקבל את הבקשה לשינוי השיחה?</string>
   <string name="upgrade_vt_prompt">האם ברצונך לשדרג את השיחה לשיחת וידאו?</string>
+  <string name="upgrade_vt_tx_prompt">האם ברצונך לשדרג את השיחה לשיחת וידאו בלבד?</string>
+  <string name="upgrade_vt_rx_prompt">האם ברצונך לשדרג את השיחה לקבלת שיחת וידאו?</string>
+  <string name="vt_init_fail_str">התחלת שידור הסרטונים נכשלה. מוריד שיחה ל-VoLTE\n</string>
   <string name="stk_cc_ss_to_dial_error">בקשת SS שונתה לבקשת חיוג.</string>
   <string name="stk_cc_ss_to_ussd_error">בקשת SS שונתה לבקשת USSD.</string>
   <string name="stk_cc_ss_to_ss_error">בקשת SS שונתה לבקשת SS חדשה.</string>
@@ -41,4 +44,6 @@
   <string name="description_direction_up_left">למעלה משמאל</string>
   <string name="description_direction_down_left">למטה משמאל</string>
   <string name="description_direction_down_right">למטה מימין</string>
+  <string name="sub_1">SIM 1</string>
+  <string name="sub_2">SIM 2</string>
 </resources>
